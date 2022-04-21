@@ -18,7 +18,7 @@ export const useForm = ( initialState = {} ) => {
         });
 
     }
-
+    // retorna valore manejador de cambios
     return [ values, handleInputChange, reset ];
 
 }
